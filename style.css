@@ -1,0 +1,148 @@
+body {
+    background: hsla(0, 30%, 82%, 0.831);
+}
+
+.section{
+   display: flex;
+   justify-content: center;
+}
+.container {
+   text-align: center;
+}
+.edu>.content {
+   margin-right: 20px;
+}
+.skill>.content {
+   margin-left: 20px;
+}
+
+.top {
+    margin-top: 60px ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid black; */
+    /* display: flex; */
+}
+.top img:hover {
+   box-shadow: 8px 5px 10px hsla(0, 49%, 57%, 0.562);
+}
+.top img {
+    border-radius: 50%;
+   box-shadow: 8px 5px 10px rgba(105, 102, 102, 0.865);
+   display: inline-block;
+}
+.pic img:hover {
+   box-shadow: 8px 5px 10px hsla(0, 49%, 57%, 0.562);
+}
+
+.pic img {
+    border-radius: 50%;
+   box-shadow: 8px 5px 10px rgba(105, 102, 102, 0.865);
+   display: inline-block;
+}
+
+.edu img {
+   opacity: 0.5;
+}
+
+.imgs{
+   display: flex;
+   justify-content: center;
+}
+.imgs {
+   display: flex;
+   flex-wrap: wrap;
+
+}
+.imgs img {
+   border-radius: 20px;
+}
+
+.top>.content{
+    width: 400px;
+    margin-left: 40px; 
+
+}
+
+.discr h2 {
+    color:darkblue;
+}
+
+ .gap {
+    color: hsla(240, 8%, 47%, 0.735);
+    margin:60px;
+    font-size:40px;
+ }
+
+
+.portodiv{
+   margin-bottom: 60px;
+   border:2px solid hsl(0, 17%, 76%) ;
+   border-radius: 22px;
+
+}
+ .porto2{
+    margin-left: 3%;
+    margin-right: 3%;
+ }
+
+
+ h2 {
+   color:darkblue; 
+   margin-bottom: 40px; 
+}
+h2:hover {
+  color:rgb(0, 139, 21)
+}
+
+
+
+ .outlined span{
+    text-align: center;
+    outline-style: outset;
+    margin-left: 4px;
+ }
+ .outlined span:hover {
+   border-radius: 8px;
+   background: #7a1e1e;
+ }
+  ul {
+   list-style-image: url(star.svg);
+   display: inline-block;
+    text-align: left;
+    list-style-type: none;
+ }
+
+ a {
+   text-decoration: none;
+ }
+ .navigator {
+   
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   background-color: hsla(0, 91%, 41%, 0.831);
+   border-radius: 8px;
+
+ }
+
+ .navigator>img {
+   width: 100%;
+ }
+
+
+.footer {
+   text-align: right;
+   width: 100%;
+   /* background-color: hsla(0, 36%, 77%, 0.831);
+   border-radius: 8px; */
+
+ }
+ .footer>p {
+text-align: center;
+ }
+ .contact img {
+   margin-left: 15px;
+   border-radius: 50%;
+ }
